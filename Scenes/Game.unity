@@ -68631,7 +68631,7 @@ MonoBehaviour:
   confetiVfx: {fileID: 2081401075}
   hammerExplosionVfx: {fileID: 1141241118}
   levelIndex: 0
-  levelTest: 18
+  levelTest: 17
   isTestMode: 1
   coinValue: 0
   currentLuckyWheel: 0
