@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f18a84f41f0d485cbaa75ad559291ee, type: 3}
+  m_Name: ColorConfigSO
+  m_EditorClassIdentifier: 
+  colorList:
+  - colorID: 0
+    colorType: 8
+    colorValue: {r: 0.8490566, g: 0.33022624, b: 0.16420433, a: 0}
+    material: {fileID: 2100000, guid: 9a645d8d272a921428efe86af39fe712, type: 2}
+    surfaceSpr: {fileID: 21300000, guid: b8632fc2568274bbc987a8f027ca7c53, type: 3}
+  - colorID: 1
+    colorType: 1
+    colorValue: {r: 0.7735849, g: 0.11311854, b: 0.11311854, a: 1}
+    material: {fileID: 2100000, guid: 0fdcdb1b1a2448949ae5fa0bb7684a75, type: 2}
+    surfaceSpr: {fileID: 21300000, guid: 8787704839c49423f98f7477757f2fd7, type: 3}
+  - colorID: 2
+    colorType: 2
+    colorValue: {r: 0.2251691, g: 0.8679245, b: 0.3419259, a: 1}
+    material: {fileID: 2100000, guid: 6e2dc8bf455bc32469561e810e596c7b, type: 2}
+    surfaceSpr: {fileID: 21300000, guid: 2621e30821e1f47e0a3cc248493cd492, type: 3}
+  - colorID: 3
+    colorType: 4
+    colorValue: {r: 0.1981132, g: 0.4338174, b: 0.7924528, a: 1}
+    material: {fileID: 2100000, guid: 7fe64a2f4c4ace64db26cb4a9edaebc8, type: 2}
+    surfaceSpr: {fileID: 21300000, guid: 2bb34cdab5f294b339a8ed6352c46438, type: 3}
+  - colorID: 4
+    colorType: 8
+    colorValue: {r: 0.8113208, g: 0.7482431, b: 0.15690637, a: 1}
+    material: {fileID: 2100000, guid: 383035e0a63ea744f94bbaaff38cb535, type: 2}
+    surfaceSpr: {fileID: 21300000, guid: 0ed2fd8d011f3400ca7bb6eecd5774c0, type: 3}
+  - colorID: 5
+    colorType: 16
+    colorValue: {r: 0.6981132, g: 0.08891065, b: 0.6919932, a: 1}
+    material: {fileID: 2100000, guid: fc3869e05a6acdb479142c8dddd9bcf4, type: 2}
+    surfaceSpr: {fileID: 21300000, guid: 7ffc51165a5db4fb79eb01dacf849885, type: 3}
+  - colorID: 6
+    colorType: 32
+    colorValue: {r: 0.12482201, g: 0.7550684, b: 0.8018868, a: 1}
+    material: {fileID: 2100000, guid: dd1e61001704ae742a56dbbc2d320e5a, type: 2}
+    surfaceSpr: {fileID: 21300000, guid: ae5c4b040c5c74ddb924882d0270ed0b, type: 3}
+  - colorID: 7
+    colorType: 64
+    colorValue: {r: 1, g: 1, b: 1, a: 1}
+    material: {fileID: 2100000, guid: 0c17ad5d6e19ee742b4d411beb15d24f, type: 2}
+    surfaceSpr: {fileID: 21300000, guid: b7e4ef0c07f484085b4c913eacc703e1, type: 3}
+  - colorID: 8
+    colorType: 128
+    colorValue: {r: 0, g: 0, b: 0, a: 1}
+    material: {fileID: 2100000, guid: ee97c1a8931101f4a9efd7d7bf21a3e8, type: 2}
+    surfaceSpr: {fileID: 21300000, guid: 87b8e0bd4772e4e5ba6d45f482a0acc4, type: 3}

@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71985ec0910d51f37f5a8a9abb48ed03, type: 3}
+  m_Name: map_195
+  m_EditorClassIdentifier: 
+  LevelMode: 0
+  Time: 0
+  Moves: 0
+  PreCreatedHex: 0
+  FlipTime: 0.55
+  TutorialSteps: 2
+  Goals:
+  - Type: 1
+    Target: 175
+  - Type: 13
+    Target: 6
+  - Type: 0
+    Target: 0
+  - Type: 0
+    Target: 0
+  CellsForTutorial:
+  - {x: -1, y: 0}
+  - {x: -1, y: 1}
+  - {x: -1, y: -1}
+  - {x: 0, y: 0}
+  - {x: 0, y: 1}
+  - {x: 0, y: -1}
+  - {x: 1, y: 0}
+  Difficulty: 0
+  Thresholds:
+  - HexCount: 50
+    MaxTypesInStack: 2
+    MaxTypes: 3
+    HalfHexProbability: 0
+    Difficulty: 0
+  - HexCount: 150
+    MaxTypesInStack: 3
+    MaxTypes: 4
+    HalfHexProbability: 0
+    Difficulty: 0
+  - HexCount: 300
+    MaxTypesInStack: 3
+    MaxTypes: 5
+    HalfHexProbability: 0
+    Difficulty: 0
+  - HexCount: 500
+    MaxTypesInStack: 3
+    MaxTypes: 6
+    HalfHexProbability: 0
+    Difficulty: 0
+  - HexCount: 1000
+    MaxTypesInStack: 3
+    MaxTypes: 7
+    HalfHexProbability: 0
+    Difficulty: 0
+  - HexCount: 1000000
+    MaxTypesInStack: 3
+    MaxTypes: 8
+    HalfHexProbability: 0
+    Difficulty: 0
+  LevelData:
+    Cells:
+    - Row: -2
+      Col: -1
+      Types: 
+      Cost: 45
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: -2
+      Col: 0
+      Types: 
+      Cost: 15
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: -2
+      Col: 1
+      Types: 
+      Cost: 1
+      CoinCost: 0
+      NeighbourSortPriority: 2
+      RequiredType: 0
+      State: 6
+    - Row: -1
+      Col: -2
+      Types: 
+      Cost: 75
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: -1
+      Col: -1
+      Types: 
+      Cost: 1
+      CoinCost: 0
+      NeighbourSortPriority: 2
+      RequiredType: 0
+      State: 6
+    - Row: -1
+      Col: 0
+      Types: 
+      Cost: 1
+      CoinCost: 0
+      NeighbourSortPriority: 2
+      RequiredType: 0
+      State: 6
+    - Row: -1
+      Col: 1
+      Types: 
+      Cost: 1
+      CoinCost: 0
+      NeighbourSortPriority: 2
+      RequiredType: 0
+      State: 6
+    - Row: -1
+      Col: 2
+      Types: 
+      Cost: 30
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: 0
+      Col: -2
+      Types: 
+      Cost: 100
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: 0
+      Col: -1
+      Types: 
+      Cost: 120
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: 0
+      Col: 0
+      Types: 
+      Cost: 1
+      CoinCost: 0
+      NeighbourSortPriority: 2
+      RequiredType: 0
+      State: 6
+    - Row: 0
+      Col: 1
+      Types: 
+      Cost: 1
+      CoinCost: 0
+      NeighbourSortPriority: 2
+      RequiredType: 0
+      State: 6
+    - Row: 0
+      Col: 2
+      Types: 
+      Cost: 60
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: 1
+      Col: -2
+      Types: 
+      Cost: 140
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: 1
+      Col: -1
+      Types: 
+      Cost: 160
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: 1
+      Col: 0
+      Types: 
+      Cost: 130
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: 1
+      Col: 1
+      Types: 
+      Cost: 110
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: 1
+      Col: 2
+      Types: 
+      Cost: 90
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    - Row: 2
+      Col: 0
+      Types: 
+      Cost: 150
+      CoinCost: 0
+      NeighbourSortPriority: 0
+      RequiredType: 0
+      State: 2
+    Pieces:
+    - Types: 01000000010000000100000001000000
+    - Types: 01000000010000000100000001000000
+    - Types: 0100000001000000010000000100000001000000
